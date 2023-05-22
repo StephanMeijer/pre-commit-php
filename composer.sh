@@ -12,4 +12,4 @@ shift
 
 echo "Running 'composer $composer_cmd'"
 
-npm "$composer_cmd" "$@"
+composer "$composer_cmd" "$@"
