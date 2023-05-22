@@ -1,7 +1,7 @@
-- id: npm
-  name: npm
-  description: Run NPM command
-  entry: ./hook.sh
+- id: composer
+  name: composer
+  description: Run Composer command
+  entry: ./composer.sh
   language: script
   pass_filenames: false
   args: []
