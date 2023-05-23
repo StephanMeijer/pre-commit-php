@@ -1,3 +1,4 @@
+#!/usr/bin/env
 <?php
 declare(strict_types=1);
 define("MARKUP", "\033[");
