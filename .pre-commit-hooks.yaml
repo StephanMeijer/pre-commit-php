@@ -1,7 +1,16 @@
 - id: composer
   name: composer
   description: Run Composer command
-  entry: ./composer.sh
+  entry: ./hooks/composer.sh
   language: script
   pass_filenames: false
   args: []
+
+- id: declare_strict_types
+  name: declare_strict_types
+  description: Checks on "declare(strict_types=1)"
+  entry: ./hooks/declare_strict_types.sh
+  language: script
+  pass_filenames: true
+  args: []
+
