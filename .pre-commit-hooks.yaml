@@ -9,7 +9,7 @@
 - id: declare_strict_types
   name: declare_strict_types
   description: Checks on "declare(strict_types=1)"
-  entry: ./hooks/declare_strict_types.sh
+  entry: php ./hooks/declare_strict_types.php
   language: script
   pass_filenames: true
   args: []
